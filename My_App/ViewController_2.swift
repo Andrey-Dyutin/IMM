@@ -17,12 +17,14 @@ class ViewController_2: UIViewController {
         super.viewDidLoad()
 
         guard let login = self.login else { return }
-        labelHellow.text = "Добрый день, \(login)"
+        labelHellow.text = "Добрый день, \(login)!"
     }
     @IBAction func buttonLogOff(_ sender: UIButton) {
     }
     
     
+    @IBAction func buttonTimetable(_ sender: UIButton) {
+    }
     //
 
 
