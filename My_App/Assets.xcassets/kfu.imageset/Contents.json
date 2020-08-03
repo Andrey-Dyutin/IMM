@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "kfu.pdf",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "kfu-1.pdf",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "kfu-2.pdf",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
