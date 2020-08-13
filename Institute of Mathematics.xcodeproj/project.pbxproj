@@ -13,6 +13,8 @@
 		756A0A2A24E5828A00A9F670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756A0A2824E5828A00A9F670 /* Main.storyboard */; };
 		756A0A2C24E5828B00A9F670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756A0A2B24E5828B00A9F670 /* Assets.xcassets */; };
 		756A0A2F24E5828B00A9F670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756A0A2D24E5828B00A9F670 /* LaunchScreen.storyboard */; };
+		756A0A3B24E59F6300A9F670 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756A0A3A24E59F6300A9F670 /* Request.swift */; };
+		756A0A3D24E5A8D500A9F670 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756A0A3C24E5A8D500A9F670 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		756A0A2B24E5828B00A9F670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756A0A2E24E5828B00A9F670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		756A0A3024E5828B00A9F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756A0A3A24E59F6300A9F670 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		756A0A3C24E5A8D500A9F670 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		756A0A1624E5828A00A9F670 = {
 			isa = PBXGroup;
 			children = (
+				756A0A3A24E59F6300A9F670 /* Request.swift */,
 				756A0A2124E5828A00A9F670 /* Institute of Mathematics */,
 				756A0A2024E5828A00A9F670 /* Products */,
 			);
@@ -59,6 +64,7 @@
 				756A0A2224E5828A00A9F670 /* AppDelegate.swift */,
 				756A0A2424E5828A00A9F670 /* SceneDelegate.swift */,
 				756A0A2624E5828A00A9F670 /* ViewController.swift */,
+				756A0A3C24E5A8D500A9F670 /* MenuViewController.swift */,
 				756A0A2824E5828A00A9F670 /* Main.storyboard */,
 				756A0A2B24E5828B00A9F670 /* Assets.xcassets */,
 				756A0A2D24E5828B00A9F670 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				756A0A2724E5828A00A9F670 /* ViewController.swift in Sources */,
+				756A0A3D24E5A8D500A9F670 /* MenuViewController.swift in Sources */,
+				756A0A3B24E59F6300A9F670 /* Request.swift in Sources */,
 				756A0A2324E5828A00A9F670 /* AppDelegate.swift in Sources */,
 				756A0A2524E5828A00A9F670 /* SceneDelegate.swift in Sources */,
 			);
